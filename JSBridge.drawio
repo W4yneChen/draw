@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T03:35:32.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="bAO9jDMujXxXAcWbOnWm" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T03:38:15.314Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="JRPesNgpIG5aac3jsFgi" version="21.0.8" type="github">
   <diagram name="第 1 页" id="QlqkZr_Dz_qlq-YX1CnW">
-    <mxGraphModel dx="797" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="494" dy="274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,14 +78,14 @@
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="560" as="sourcePoint" />
+            <mxPoint x="980" y="520" as="sourcePoint" />
             <mxPoint x="979.8" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="439.8" as="sourcePoint" />
-            <mxPoint x="1000" y="440" as="targetPoint" />
+            <mxPoint x="980" y="400" as="sourcePoint" />
+            <mxPoint x="1000" y="400.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-48" value="各端（appA、appB、appX）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gINnrKCMtKWkM-afQS_u-29">
@@ -95,8 +95,8 @@
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="399.8" as="sourcePoint" />
-            <mxPoint x="1000" y="400" as="targetPoint" />
+            <mxPoint x="980" y="360" as="sourcePoint" />
+            <mxPoint x="1000" y="360.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-45" value="sdk env&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gINnrKCMtKWkM-afQS_u-30">
@@ -106,8 +106,8 @@
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="479.8" as="sourcePoint" />
-            <mxPoint x="1000" y="480" as="targetPoint" />
+            <mxPoint x="980" y="440" as="sourcePoint" />
+            <mxPoint x="1000" y="440.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-49" value="common（通用）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gINnrKCMtKWkM-afQS_u-34">
@@ -117,8 +117,8 @@
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="519.8" as="sourcePoint" />
-            <mxPoint x="1000" y="520" as="targetPoint" />
+            <mxPoint x="980" y="479.99999999999994" as="sourcePoint" />
+            <mxPoint x="1000" y="480.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-50" value="default（兜底）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gINnrKCMtKWkM-afQS_u-36">
@@ -128,8 +128,8 @@
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-40" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="560" as="sourcePoint" />
-            <mxPoint x="1000" y="560" as="targetPoint" />
+            <mxPoint x="980" y="520.2" as="sourcePoint" />
+            <mxPoint x="1000" y="520.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gINnrKCMtKWkM-afQS_u-51" value="notSupport" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gINnrKCMtKWkM-afQS_u-40">
