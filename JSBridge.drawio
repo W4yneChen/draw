@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T06:17:52.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uesOBa-dy9E2przSN0XX" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T06:18:49.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kHtcABB5giWstS2xi1Vr" version="21.5.1" type="github">
   <diagram name="第 1 页" id="QlqkZr_Dz_qlq-YX1CnW">
-    <mxGraphModel dx="801" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="955" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -302,7 +302,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-45" value="JS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="90" y="1200" width="80" height="520" as="geometry" />
+          <mxGeometry x="151" y="1442" width="80" height="520" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IUW8P1MZcCfPq_Lffvb7-45">
           <mxGeometry x="35" y="80" width="10" height="400" as="geometry" />
@@ -333,7 +333,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-51" value="Native" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="396" y="1200" width="80" height="520" as="geometry" />
+          <mxGeometry x="457" y="1442" width="80" height="520" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IUW8P1MZcCfPq_Lffvb7-51">
           <mxGeometry x="34" y="170" width="10" height="60" as="geometry" />
@@ -352,30 +352,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-55" value="进入页面" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="20" y="1290" as="sourcePoint" />
-            <mxPoint x="120" y="1290.2" as="targetPoint" />
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-55" value="用户调用" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.002" width="80" relative="1" as="geometry">
+            <mxPoint x="81" y="1532" as="sourcePoint" />
+            <mxPoint x="181" y="1532.2" as="targetPoint" />
             <Array as="points">
-              <mxPoint y="1290" />
+              <mxPoint x="61" y="1532" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-56" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;window.JSBridge.onReceive(result, event)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="136" y="1540" as="targetPoint" />
-            <mxPoint x="431" y="1539.9999999999998" as="sourcePoint" />
+            <mxPoint x="197" y="1782" as="targetPoint" />
+            <mxPoint x="492" y="1781.9999999999998" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="336" y="1540" />
+              <mxPoint x="397" y="1782" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-57" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-DFlNdaCX6oZxnPxWwqsc5tY0n9d&quot; style=&quot;&quot;&gt;window.JSBridge.on(event);&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.4369" relative="1" as="geometry">
-            <mxPoint x="355" y="1400" as="sourcePoint" />
-            <mxPoint x="430" y="1400" as="targetPoint" />
+            <mxPoint x="416" y="1642" as="sourcePoint" />
+            <mxPoint x="491" y="1642" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="135" y="1400" />
+              <mxPoint x="196" y="1642" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
