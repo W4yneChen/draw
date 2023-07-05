@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T06:26:49.288Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LiAPOlujPx1GUNaXUXMT" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T11:25:27.632Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XmFFdG9JwYAVoqD8T9WB" version="21.5.1" type="github">
   <diagram name="第 1 页" id="QlqkZr_Dz_qlq-YX1CnW">
-    <mxGraphModel dx="1080" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1304" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,82 +138,84 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-4" value="JS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="871" y="758" width="80" height="480" as="geometry" />
+          <mxGeometry x="934" y="758" width="80" height="522" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-4" vertex="1">
-          <mxGeometry x="35" y="80" width="10" height="360" as="geometry" />
+          <mxGeometry x="35" y="64" width="10" height="399" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-4" vertex="1">
-          <mxGeometry x="40" y="110" width="10" height="40" as="geometry" />
+          <mxGeometry x="40" y="163" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-16" value="generate callbackId&lt;br&gt;callbackMap[callbackId] = callback" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-4" target="IUW8P1MZcCfPq_Lffvb7-15" edge="1">
           <mxGeometry x="-0.0033" relative="1" as="geometry">
-            <mxPoint x="45" y="90" as="sourcePoint" />
+            <mxPoint x="45" y="143" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="120" />
+              <mxPoint x="75" y="173" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-4" vertex="1">
-          <mxGeometry x="40" y="380" width="10" height="40" as="geometry" />
+          <mxGeometry x="40" y="393" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-23" value="callback = callbackMap[callbackId]&lt;br&gt;callback(result)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-4" target="IUW8P1MZcCfPq_Lffvb7-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="360" as="sourcePoint" />
+            <mxPoint x="45" y="373" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="360" />
-              <mxPoint x="75" y="390" />
+              <mxPoint x="75" y="373" />
+              <mxPoint x="75" y="403" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-5" value="Native" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1177" y="758" width="80" height="480" as="geometry" />
+          <mxGeometry x="1240" y="758" width="80" height="522" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-5" vertex="1">
-          <mxGeometry x="35" y="190" width="10" height="130" as="geometry" />
+          <mxGeometry x="35" y="223" width="10" height="130" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-5" vertex="1">
-          <mxGeometry x="40" y="245" width="10" height="40" as="geometry" />
+          <mxGeometry x="40" y="278" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-38" value="执行 Native 方法" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-5" target="IUW8P1MZcCfPq_Lffvb7-37" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="225" as="sourcePoint" />
+            <mxPoint x="45" y="258" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="255" />
+              <mxPoint x="75" y="288" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-10" value="用户调用" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="801" y="848" as="sourcePoint" />
-            <mxPoint x="901" y="848.2" as="targetPoint" />
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-10" value="用户调用 call" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.002" width="80" relative="1" as="geometry">
+            <mxPoint x="851" y="875.8" as="sourcePoint" />
+            <mxPoint x="970" y="872" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="781" y="848" />
+              <mxPoint x="850" y="871.8" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-19" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;window.JSBridge.onReceive(result, callbackId)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="917" y="1058" as="targetPoint" />
-            <mxPoint x="1212" y="1057.9999999999998" as="sourcePoint" />
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-19" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 callbackId&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="980" y="1091" as="targetPoint" />
+            <mxPoint x="1275" y="1090.9999999999998" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1117" y="1058" />
+              <mxPoint x="1180" y="1091" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-18" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;window.JSBridge.call(method, params, callbackId)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-18" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;JS 侧原生调用 Native&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;window.JSBridge.call(method, params, callbackId)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.4369" relative="1" as="geometry">
-            <mxPoint x="1137" y="958" as="sourcePoint" />
-            <mxPoint x="1212" y="958" as="targetPoint" />
+            <mxPoint x="1200" y="991" as="sourcePoint" />
+            <mxPoint x="1275" y="991" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="917" y="958" />
+              <mxPoint x="980" y="991" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-26" value="JS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1437" y="758" width="80" height="560" as="geometry" />
+          <mxGeometry x="1602" y="758" width="80" height="560" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-26" vertex="1">
           <mxGeometry x="35" y="80" width="10" height="200" as="geometry" />
@@ -245,7 +247,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-32" value="Native" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1743" y="758" width="80" height="560" as="geometry" />
+          <mxGeometry x="1908" y="758" width="80" height="560" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-32" vertex="1">
           <mxGeometry x="35" y="190" width="10" height="70" as="geometry" />
@@ -264,119 +266,142 @@
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-32" vertex="1">
           <mxGeometry x="35" y="360" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-34" value="用户调用" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-34" value="用户调用 call" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1367" y="848" as="sourcePoint" />
-            <mxPoint x="1467" y="848.2" as="targetPoint" />
+            <mxPoint x="1500" y="846" as="sourcePoint" />
+            <mxPoint x="1632" y="848.2" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1347" y="848" />
+              <mxPoint x="1512" y="848" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-35" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;调用&amp;nbsp;fetchQueue&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;fetchQueue&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+a&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;6708523862423781646&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:true,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:65,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:390,&amp;quot;end&amp;quot;:400},&amp;quot;recordId&amp;quot;:&amp;quot;IgW2deUTWof7LrxbqKKcaYUInVc&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1482" y="1008" as="targetPoint" />
-            <mxPoint x="1777" y="1007.9999999999998" as="sourcePoint" />
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-35" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 调用&amp;nbsp;fetchQueue 获取&lt;/div&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;messageQueue 中的 jsb 参数&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;fetchQueue&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+a&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;6708523862423781646&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:true,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:65,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:390,&amp;quot;end&amp;quot;:400},&amp;quot;recordId&amp;quot;:&amp;quot;IgW2deUTWof7LrxbqKKcaYUInVc&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="1647" y="1008" as="targetPoint" />
+            <mxPoint x="1942" y="1007.9999999999998" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1682" y="1008" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-36" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;iframe 触发请求&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.4369" relative="1" as="geometry">
-            <mxPoint x="1703" y="958" as="sourcePoint" />
-            <mxPoint x="1778" y="958" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1483" y="958" />
+              <mxPoint x="1847" y="1008" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-44" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;window.JSBridge.onReceive(result, callbackId)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1482" y="1138" as="targetPoint" />
-            <mxPoint x="1777" y="1137.9999999999998" as="sourcePoint" />
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-36" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;iframe 触发请求通知 Native 有 jsb 调用&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.4369" relative="1" as="geometry">
+            <mxPoint x="1868" y="958" as="sourcePoint" />
+            <mxPoint x="1943" y="958" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1682" y="1138" />
+              <mxPoint x="1648" y="958" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-44" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 callbackId&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="1647" y="1138" as="targetPoint" />
+            <mxPoint x="1942" y="1137.9999999999998" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1847" y="1138" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-45" value="JS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="289" y="758" width="80" height="520" as="geometry" />
+          <mxGeometry x="208" y="758" width="80" height="552" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-45" vertex="1">
-          <mxGeometry x="35" y="80" width="10" height="400" as="geometry" />
+          <mxGeometry x="35" y="60" width="10" height="475" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-45" vertex="1">
-          <mxGeometry x="40" y="110" width="10" height="40" as="geometry" />
+          <mxGeometry x="40" y="145" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-48" value="维护 eventMap&lt;br&gt;注册事件时将 callback 放入 eventMap" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-45" target="IUW8P1MZcCfPq_Lffvb7-47" edge="1">
           <mxGeometry x="0.0019" relative="1" as="geometry">
-            <mxPoint x="45" y="90" as="sourcePoint" />
+            <mxPoint x="45" y="125" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="120" />
+              <mxPoint x="75" y="155" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-45" vertex="1">
-          <mxGeometry x="40" y="420" width="10" height="40" as="geometry" />
+          <mxGeometry x="40" y="455" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-50" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-DFlNdaCX6oZxnPxWwqsc5tY0n9d&quot; style=&quot;&quot;&gt;从 eventMap 中获取当前 event 的所有 callback&lt;/div&gt;&lt;div class=&quot;old-record-id-DFlNdaCX6oZxnPxWwqsc5tY0n9d&quot; style=&quot;&quot;&gt;并依次执行&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-45" target="IUW8P1MZcCfPq_Lffvb7-49" edge="1">
           <mxGeometry x="0.0019" relative="1" as="geometry">
-            <mxPoint x="45" y="400" as="sourcePoint" />
+            <mxPoint x="45" y="435" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="400" />
-              <mxPoint x="75" y="430" />
+              <mxPoint x="75" y="435" />
+              <mxPoint x="75" y="465" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-51" value="Native" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="595" y="758" width="80" height="520" as="geometry" />
+          <mxGeometry x="514" y="758" width="80" height="552" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-51" vertex="1">
-          <mxGeometry x="34" y="170" width="10" height="60" as="geometry" />
+          <mxGeometry x="34" y="205" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-51" vertex="1">
-          <mxGeometry x="35" y="260" width="10" height="90" as="geometry" />
+          <mxGeometry x="35" y="295" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-51" vertex="1">
-          <mxGeometry x="39.98" y="280" width="10" height="55" as="geometry" />
+          <mxGeometry x="39.98" y="315" width="10" height="55" as="geometry" />
         </mxCell>
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-54" value="执行 Native 方法" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-51" target="IUW8P1MZcCfPq_Lffvb7-53" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="44.98000000000002" y="275" as="sourcePoint" />
+            <mxPoint x="44.98000000000002" y="310" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="74.98000000000002" y="305" />
+              <mxPoint x="74.98000000000002" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-55" value="用户调用" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.002" width="80" relative="1" as="geometry">
-            <mxPoint x="219" y="848" as="sourcePoint" />
-            <mxPoint x="319" y="848.2" as="targetPoint" />
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-55" value="用户调用 on" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.0014" width="80" relative="1" as="geometry">
+            <mxPoint x="97" y="886" as="sourcePoint" />
+            <mxPoint x="238" y="883.2" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="199" y="848" />
+              <mxPoint x="118" y="883" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-56" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;window.JSBridge.onReceive(result, event)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="335" y="1098" as="targetPoint" />
-            <mxPoint x="630" y="1097.9999999999998" as="sourcePoint" />
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-56" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 event&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="254" y="1133" as="targetPoint" />
+            <mxPoint x="549" y="1132.9999999999998" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="535" y="1098" />
+              <mxPoint x="454" y="1133" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-57" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-DFlNdaCX6oZxnPxWwqsc5tY0n9d&quot; style=&quot;&quot;&gt;window.JSBridge.on(event);&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-57" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-DFlNdaCX6oZxnPxWwqsc5tY0n9d&quot; style=&quot;&quot;&gt;JS 侧原生监听 Native事件&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.4369" relative="1" as="geometry">
-            <mxPoint x="554" y="958" as="sourcePoint" />
-            <mxPoint x="629" y="958" as="targetPoint" />
+            <mxPoint x="473" y="993" as="sourcePoint" />
+            <mxPoint x="548" y="993" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="334" y="958" />
+              <mxPoint x="253" y="993" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMUMBUBR0BUrqPGFh5vc-1" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;注入全局对象 window.JSBridge&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="980" y="840" as="targetPoint" />
+            <mxPoint x="1275" y="839.9999999999998" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="840" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMUMBUBR0BUrqPGFh5vc-2" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;注入全局对象 window.JSBridge&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="255" y="840" as="targetPoint" />
+            <mxPoint x="550" y="839.9999999999998" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="455" y="840" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
