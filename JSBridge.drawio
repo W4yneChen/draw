@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T11:29:57.946Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qcNnweEKbYwMHqeK2dPa" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T11:30:49.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7y0eAMOTGx2wR37hWnmW" version="21.5.1" type="github">
   <diagram name="第 1 页" id="QlqkZr_Dz_qlq-YX1CnW">
     <mxGraphModel dx="1304" dy="724" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-19" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 callbackId&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-19" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用全局 onReceive 返回 result 和 callbackId&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0034" relative="1" as="geometry">
             <mxPoint x="980" y="1091" as="targetPoint" />
             <mxPoint x="1275" y="1090.9999999999998" as="sourcePoint" />
@@ -295,8 +295,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-44" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 callbackId&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.0034" relative="1" as="geometry">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-44" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用全局 onReceive 返回 result 和 callbackId&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0046" relative="1" as="geometry">
             <mxPoint x="1647" y="1138" as="targetPoint" />
             <mxPoint x="1942" y="1137.9999999999998" as="sourcePoint" />
             <Array as="points">
@@ -366,8 +366,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-56" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 event&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.0034" relative="1" as="geometry">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-56" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用全局 onReceive 返回 result 和 event&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0046" relative="1" as="geometry">
             <mxPoint x="254" y="1133" as="targetPoint" />
             <mxPoint x="549" y="1132.9999999999998" as="sourcePoint" />
             <Array as="points">
