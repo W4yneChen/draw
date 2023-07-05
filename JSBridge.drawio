@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T11:30:49.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7y0eAMOTGx2wR37hWnmW" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T11:32:26.917Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XdEX5WGXNSsWGo0eMbcj" version="21.5.1" type="github">
   <diagram name="第 1 页" id="QlqkZr_Dz_qlq-YX1CnW">
     <mxGraphModel dx="1304" dy="724" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-4" vertex="1">
           <mxGeometry x="40" y="163" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-16" value="generate callbackId&lt;br&gt;callbackMap[callbackId] = callback" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-4" target="IUW8P1MZcCfPq_Lffvb7-15" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-16" value="generate callbackId&lt;br&gt;callbackMap[callbackId] = callback&lt;br&gt;实现 onReceive 方法并挂载到 window" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-4" target="IUW8P1MZcCfPq_Lffvb7-15" edge="1">
           <mxGeometry x="-0.0033" relative="1" as="geometry">
             <mxPoint x="45" y="143" as="sourcePoint" />
             <Array as="points">
@@ -194,7 +194,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-19" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用全局 onReceive 返回 result 和 callbackId&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-19" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 callbackId&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0034" relative="1" as="geometry">
             <mxPoint x="980" y="1091" as="targetPoint" />
             <mxPoint x="1275" y="1090.9999999999998" as="sourcePoint" />
@@ -223,7 +223,7 @@
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-26" vertex="1">
           <mxGeometry x="40" y="110" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-29" value="generate callbackId&lt;br&gt;callbackMap[callbackId] = callback&lt;br&gt;将调用信息存入 messageQueue" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-26" target="IUW8P1MZcCfPq_Lffvb7-28" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-29" value="generate callbackId&lt;br&gt;callbackMap[callbackId] = callback&lt;br&gt;将调用信息存入 messageQueue&lt;br&gt;实现 onReceive 方法并挂载到 window" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-26" target="IUW8P1MZcCfPq_Lffvb7-28" edge="1">
           <mxGeometry x="-0.0033" relative="1" as="geometry">
             <mxPoint x="45" y="90" as="sourcePoint" />
             <Array as="points">
@@ -295,7 +295,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-44" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用全局 onReceive 返回 result 和 callbackId&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-44" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 callbackId&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0046" relative="1" as="geometry">
             <mxPoint x="1647" y="1138" as="targetPoint" />
             <mxPoint x="1942" y="1137.9999999999998" as="sourcePoint" />
@@ -314,7 +314,7 @@
         <mxCell id="IUW8P1MZcCfPq_Lffvb7-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="IUW8P1MZcCfPq_Lffvb7-45" vertex="1">
           <mxGeometry x="40" y="145" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-48" value="维护 eventMap&lt;br&gt;注册事件时将 callback 放入 eventMap" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-45" target="IUW8P1MZcCfPq_Lffvb7-47" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-48" value="维护 eventMap&lt;br&gt;注册事件时将 callback 放入 eventMap&lt;br&gt;实现 onReceive 方法并挂载到 window" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="IUW8P1MZcCfPq_Lffvb7-45" target="IUW8P1MZcCfPq_Lffvb7-47" edge="1">
           <mxGeometry x="0.0019" relative="1" as="geometry">
             <mxPoint x="45" y="125" as="sourcePoint" />
             <Array as="points">
@@ -366,7 +366,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-56" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用全局 onReceive 返回 result 和 event&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-56" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;Native 侧调用 onReceive 返回 result 和 event&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0046" relative="1" as="geometry">
             <mxPoint x="254" y="1133" as="targetPoint" />
             <mxPoint x="549" y="1132.9999999999998" as="sourcePoint" />
