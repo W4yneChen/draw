@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T11:26:35.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-yUMLfpaomt7y8Ms8K5H" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T11:29:57.946Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qcNnweEKbYwMHqeK2dPa" version="21.5.1" type="github">
   <diagram name="第 1 页" id="QlqkZr_Dz_qlq-YX1CnW">
     <mxGraphModel dx="1304" dy="724" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -204,7 +204,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-18" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;JS 侧原生调用 Native&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;window.JSBridge.call(method, params, callbackId)&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-18" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;JS 侧通过全局 JSBridge 对象原生调用 Native 方法&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.4369" relative="1" as="geometry">
             <mxPoint x="1200" y="991" as="sourcePoint" />
             <mxPoint x="1275" y="991" as="targetPoint" />
@@ -376,7 +376,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW8P1MZcCfPq_Lffvb7-57" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-DFlNdaCX6oZxnPxWwqsc5tY0n9d&quot; style=&quot;&quot;&gt;JS 侧原生监听 Native事件&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="IUW8P1MZcCfPq_Lffvb7-57" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-DFlNdaCX6oZxnPxWwqsc5tY0n9d&quot; style=&quot;&quot;&gt;JS 侧通过全局 JSBridge 对象原生监听 Native 方法&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.4369" relative="1" as="geometry">
             <mxPoint x="473" y="993" as="sourcePoint" />
             <mxPoint x="548" y="993" as="targetPoint" />
@@ -386,7 +386,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vMUMBUBR0BUrqPGFh5vc-1" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;注入全局对象 window.JSBridge&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="vMUMBUBR0BUrqPGFh5vc-1" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;注入全局 JSBridge 对象&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0034" relative="1" as="geometry">
             <mxPoint x="980" y="840" as="targetPoint" />
             <mxPoint x="1275" y="839.9999999999998" as="sourcePoint" />
@@ -396,7 +396,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vMUMBUBR0BUrqPGFh5vc-2" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;注入全局对象 window.JSBridge&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="vMUMBUBR0BUrqPGFh5vc-2" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;O3Zrd4JiQovSLaxuxKEcCTOUnIb&quot;&gt;&lt;div class=&quot;old-record-id-Atigdmb5oogznvxZklyccYrrn9i&quot; style=&quot;&quot;&gt;注入全局 JSBridge 对象&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0034" relative="1" as="geometry">
             <mxPoint x="255" y="840" as="targetPoint" />
             <mxPoint x="550" y="839.9999999999998" as="sourcePoint" />
